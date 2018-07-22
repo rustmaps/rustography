@@ -1,0 +1,47 @@
+.navbar {
+  height: 50px
+}
+
+.navbar a {
+  color: #eee!important
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 1px
+}
+
+.display-3 {
+  font-size: 3em;
+}
+
+.jumbotron {
+  background-size: cover;
+  background-position: center center;
+  background-image: url(https://i.imgur.com/jinm5JA.jpg);
+}
+
+.jumbotron * {
+  color: #ccc
+}
+
+.jumbotron h1 {
+  font-weight: 900;
+  color: #fff;
+  padding-top: 40px;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-expand-md {
+    padding-left: 100px;
+    padding-right: 100px
+  }
+}
+
+
+@media (min-width: 992px) {
+  .navbar-expand-md {
+    padding-left: 200px;
+    padding-right: 200px
+  }
+}
