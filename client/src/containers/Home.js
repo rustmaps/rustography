@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Post } from 'components'
+import { Post } from '../components'
 import { createStructuredSelector, createSelector } from 'reselect'
 
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import * as PostActions from 'actions/posts'
+import * as PostActions from '../actions/posts'
 import { Container, Row, Col, Jumbotron, Button, Alert, Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink, ListGroup, ListGroupItem } from 'reactstrap';
 import styled from 'styled-components'
 

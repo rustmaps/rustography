@@ -3,7 +3,6 @@
   "description": "A Community for Custom Rust Maps",
   "version": "0.1.0",
   "author": "Vice",
-  "proxy": "http://localhost:3001/auth",
     "dependencies": {
     "bootstrap": "^4.1.2",
     "express": "^4.16.3",

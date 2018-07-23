@@ -1,4 +1,4 @@
-import { GET_USER, GET_USER_SUCCESS, GET_USER_ERROR } from 'constants/ActionTypes'
+import { GET_USER, GET_USER_SUCCESS, GET_USER_ERROR } from '../constants/ActionTypes'
 import { createAction } from 'redux-actions'
 
 export const get_user = createAction(GET_USER)

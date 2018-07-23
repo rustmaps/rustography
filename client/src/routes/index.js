@@ -1,6 +1,6 @@
 import React from 'react'
-import { Home, Profile} from 'containers'
-import { Header } from 'components'
+import { Home, Profile} from '../containers'
+import { Header } from '../components'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import styled from 'styled-components'
 
