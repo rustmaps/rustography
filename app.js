@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var http = require('http');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -16,6 +17,12 @@ var router = express.Router();
 var LocalStrategy = require('passport-local').Strategy;
 var cors = require('cors');
 app.use(cors())
+
+const server = http.createServer(app);
+server.listen(3002);
+server.on('listening', () => {
+  console.log('Server is listening on port: 3000');
+});
 
 app
   .use(session({
